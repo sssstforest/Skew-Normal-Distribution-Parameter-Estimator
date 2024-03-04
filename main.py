@@ -22,7 +22,7 @@ x_values = x
 y_values = p
 
 # Computer the parameters using the function
-mu, sd, alpha = ParameterEstimator(x_values, y_values, 501)
+mu, sd, alpha = ParameterEstimator(x_values, y_values, epochs=501)
 
 print("Estimated location (mean): ", mu)
 print("Estimated scale (standard deviation): ", sd)

@@ -12,7 +12,7 @@ This project uses **Feedforward Neural Network** to estimate the parameters of t
 from SNParameterEstimator import ParameterEstimator
 
 # Computer the parameters using the function
-mu, sd, alpha = ParameterEstimator(x_values, y_values, 501)
+mu, sd, alpha = ParameterEstimator(x_values, y_values, epochs=501)
 ```
 
 **mu**: Location (Mean)  
