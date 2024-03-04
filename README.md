@@ -1,2 +1,2 @@
 # Skew-Normal-Distribution-Parameter-Estimator
-test
+This project is to use the Feedforward Neural Network to predict the parameters of Skew Normal Distribution
