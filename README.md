@@ -10,12 +10,12 @@ This is a WIP extension for SD WebUI [(via Forge)](https://github.com/lllyasviel
 
 ## Usage
 
-'''bash
+```bash
 from SNParameterEstimator import ParameterEstimator
 
 # Computer the parameters using the function
 mu, sd, alpha = ParameterEstimator(x_values, y_values, 501)
-'''
+```
 
 The image generating and basic layer functionality is working now, but **the transparent img2img is not finished yet (will finish in about one week)**.
 
