@@ -6,14 +6,6 @@ This project uses **Feedforward Neural Network** to estimate the parameters of t
 
 ![image](/images/NNLayout.jpg)
 
-## Math Work
-
-![image](/images/dMu.jpg)
-
-![image](/images/dSD.jpg)
-
-![image](/images/dAlpha.jpg)
-
 ## Usage
 
 ```bash
@@ -26,6 +18,12 @@ mu, sd, alpha = ParameterEstimator(x_values, y_values, 501)
 **mu**: Location (Mean)  
 **sd**: Scale (Standard Deviation)  
 **alpha**: Skewness
+
+## Math Work
+
+![image](/images/dMu.jpg)
+![image](/images/dSD.jpg)
+![image](/images/dAlpha.jpg)
 
 ## Limitations
 
