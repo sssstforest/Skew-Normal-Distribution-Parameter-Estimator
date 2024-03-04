@@ -6,8 +6,6 @@ This project uses **Feedforward Neural Network** to predict the parameters of th
 
 ![image](/images/NNLayout.jpg)
 
-This is a WIP extension for SD WebUI [(via Forge)](https://github.com/lllyasviel/stable-diffusion-webui-forge) to generate transparent images and layers.
-
 ## Usage
 
 ```bash
@@ -23,9 +21,20 @@ mu, sd, alpha = ParameterEstimator(x_values, y_values, 501)
 
 ## Limitations
 
-1. The model only works perfect when **-3<mu<2**,  **sd>1**, **alpha>1**
+1. This model tends to be more precise when
+    1. **mu** is close to **0**.
+    2. **sd** is larger than **1.0**.
+    3. **alpha** is larger than **1.0**.
 
-The image generating and basic layer functionality is working now, but **the transparent img2img is not finished yet (will finish in about one week)**.
+## Guess of Reasons and Future Work
+
+1. The reason why this model does not work well in all range of values might because 2 hidden layers are not enought for prediction. Thus, increasing the number of layers of using RNN instead might improve the performance.
+2. The hyperparameters, like learning rate and decay, need to be tuned for the better performance.
+3. Cases like when the data is not completed have not been tested for this model.
+
+## References
+
+1. Ideas of splitting the neurons for parameters: https://medium.com/hal24k-techblog/a-guide-to-generating-probability-distributions-with-neural-networks-ffc4efacd6a4
 
 This code base is highly dynamic and may change a lot in the next month. If you are from professional content creation studio and need all previous results to be strictly reproduced, you may consider backup files during each update.
 
