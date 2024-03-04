@@ -1,6 +1,6 @@
 # Skew Normal Distribution Parameter Estimator
 
-This project uses **Feedforward Neural Network** to predict the parameters of the **Skew Normal Distribution**.
+This project uses **Feedforward Neural Network** to estimate the parameters of the **Skew Normal Distribution**.
 
 ## Neural Network Layout
 
