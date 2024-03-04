@@ -1,8 +1,6 @@
 # Skew Normal Distribution Parameter Estimator
 
-*(update Feb29: the name of this repo will change to "sd-forge-layerdiffuse" at Mar 3)*
-
-Transparent Image Layer Diffusion using Latent Transparency
+This project uses **Feedforward Neural Network** to predict the parameters of a **skew ormal distribution**
 
 ![image](https://github.com/layerdiffusion/sd-forge-layerdiffusion/assets/161511761/36598904-ae5f-4578-87d3-4b496e11dcc5)
 
