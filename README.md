@@ -1,4 +1,4 @@
-# sd-forge-layerdiffusion
+# Skew Normal Distribution Parameter Estimator
 
 *(update Feb29: the name of this repo will change to "sd-forge-layerdiffuse" at Mar 3)*
 
