@@ -4,7 +4,7 @@ This project uses **Feedforward Neural Network** to predict the parameters of th
 
 ## Neural Network Layout
 
-![image](https://github.com/sssstforest/Skew-Normal-Distribution-Parameter-Estimator/images/NNLayout.jpg)
+![image](/images/NNLayout.jpg)
 
 This is a WIP extension for SD WebUI [(via Forge)](https://github.com/lllyasviel/stable-diffusion-webui-forge) to generate transparent images and layers.
 
