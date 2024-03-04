@@ -1,4 +1,3 @@
-import SNParameterEstimator
 from SNParameterEstimator import ParameterEstimator
 
 import matplotlib.pyplot as plt
