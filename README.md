@@ -6,6 +6,14 @@ This project uses **Feedforward Neural Network** to predict the parameters of th
 
 ![image](/images/NNLayout.jpg)
 
+## Math Work
+
+![image](/images/dMu.jpg)
+
+![image](/images/dSD.jpg)
+
+![image](/images/dAlpha.jpg)
+
 ## Usage
 
 ```bash
