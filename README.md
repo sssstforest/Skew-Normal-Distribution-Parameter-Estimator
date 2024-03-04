@@ -6,6 +6,12 @@ This project uses **Feedforward Neural Network** to estimate the parameters of t
 
 ![image](/images/NNLayout.jpg)
 
+## Setup the environment
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Usage
 
 ```bash
