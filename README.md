@@ -15,8 +15,8 @@ from SNParameterEstimator import ParameterEstimator
 mu, sd, alpha = ParameterEstimator(x_values, y_values, 501)
 ```
 
-**mu**: Location (Mean)
-**sd**: Scale (Standard Deviation)
+**mu**: Location (Mean)  
+**sd**: Scale (Standard Deviation)  
 **alpha**: Skewness
 
 ## Limitations
@@ -35,6 +35,8 @@ mu, sd, alpha = ParameterEstimator(x_values, y_values, 501)
 ## References
 
 1. Ideas of splitting the neurons for parameters: https://medium.com/hal24k-techblog/a-guide-to-generating-probability-distributions-with-neural-networks-ffc4efacd6a4
+2. Derivative of error function: https://proofwiki.org/wiki/Derivative_of_Error_Function
+3. Derivative calculator: https://www.derivative-calculator.net/
 
 This code base is highly dynamic and may change a lot in the next month. If you are from professional content creation studio and need all previous results to be strictly reproduced, you may consider backup files during each update.
 
