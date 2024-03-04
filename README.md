@@ -34,6 +34,6 @@ mu, sd, alpha = ParameterEstimator(x_values, y_values, 501)
 
 ## References
 
-1. Ideas of splitting the neurons for parameters: https://medium.com/hal24k-techblog/a-guide-to-generating-probability-distributions-with-neural-networks-ffc4efacd6a4
-2. Derivative of error function: https://proofwiki.org/wiki/Derivative_of_Error_Function
+1. Neural Network structure: https://github.com/Sentdex/NNfSiX
+2. Ideas of splitting the neurons for parameters: https://medium.com/hal24k-techblog/a-guide-to-generating-probability-distributions-with-neural-networks-ffc4efacd6a4
 3. Derivative calculator: https://www.derivative-calculator.net/
