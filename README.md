@@ -40,7 +40,7 @@ mu, sd, alpha = ParameterEstimator(x_values, y_values, epochs=501)
 
 ## Guess of Reasons and Future Work
 
-1. The reason why this model does not work well in all range of values might because 2 hidden layers are not enought for prediction. Thus, increasing the number of layers of using RNN instead might improve the performance.
+1. The reason why this model does not work well in all range of values might because 2 hidden layers are not enought for prediction. Thus, increasing the number of layers or using RNN instead might improve the performance.
 2. The hyperparameters, like learning rate and decay, need to be tuned for the better performance.
 3. Cases like when the data is not completed have not been tested for this model.
 
