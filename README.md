@@ -1,6 +1,6 @@
 # Skew Normal Distribution Parameter Estimator
 
-This project uses **Simple Feedforward Neural Network** to estimate the parameters of the **Skew Normal Distribution**.
+This project uses **Sequential Feedforward Neural Network** to estimate the parameters of the **Skew Normal Distribution**.
 
 ## Neural Network Layout
 
