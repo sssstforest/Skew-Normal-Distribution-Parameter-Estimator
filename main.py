@@ -7,8 +7,8 @@ from scipy.stats import skewnorm
 # Define the number of samples, the location, the scale, and the skewness
 num_samples = 10000
 mu_data = 1.0  # location (mean) 
-sd_data = 5.0  # scale (standard deviation) 
-alpha_data = 5.0  # skewness (negative value means left skew, positive means right skew)
+sd_data = 3.0  # scale (standard deviation) 
+alpha_data = 20.0  # skewness (negative value means left skew, positive means right skew)
 
 # Generate samples from the skew normal distribution
 dist = skewnorm(alpha_data, mu_data, sd_data)
