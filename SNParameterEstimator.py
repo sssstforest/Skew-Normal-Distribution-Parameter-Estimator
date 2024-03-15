@@ -458,6 +458,6 @@ def ParameterEstimator(x, y, epochs=1000, learning_rate=0.005, decay=1e-3, epsil
 
     # Display the plots
     plt.tight_layout()
-    # plt.show()
+    plt.show()
         
     return np.mean(alpha.output), np.mean(mu.output), np.mean(activation_sd.output)
