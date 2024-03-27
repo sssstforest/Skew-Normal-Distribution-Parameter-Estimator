@@ -23,7 +23,7 @@ x_values = x
 y_values = p
 plt.show()
 # Computer the parameters using the function
-mu, sd, alpha = ParameterEstimator(x_values, y_values, epochs=501)
+mu, sd, alpha = ParameterEstimator(x_values, y_values, epochs=501, learning_rate=0.005, decay=1e-3, epsilon=1e-7, beta_1=0.9, beta_2=0.999)
 
 print("Estimated location (mean): ", mu)
 print("Estimated scale (standard deviation): ", sd)
